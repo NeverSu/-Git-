@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Restaurant:war exploded">
+    <output-path>$PROJECT_DIR$/Restaurant/target/Restaurant</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Restaurant" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" />
+          <element id="archive" name="Kitchen-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="Kitchen" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Restaurant/target/Restaurant/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Restaurant/web/Web" />
+    </root>
+  </artifact>
+</component>
